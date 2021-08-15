@@ -7,12 +7,12 @@
 {% block main %}
     <table class="table table-striped">
         <thread>
-            <tr>
+            <tr style="background-color: #fff;">
                 <th>Symbol</th>
                 <th>Name</th>
                 <th>Shares</th>
                 <th>Price</th>
-                <th>Symbol</th>
+                <th>Total</th>
             </tr>
         </thread>
         <tbody>
@@ -28,7 +28,7 @@
 
             <tr>
                 <td>CASH</td>
-                <td colsapn="3"></td>
+                <td colspan="3"></td>
                 <td>{{ usd(cash) }}</td>
             </tr>
         </tbody>
